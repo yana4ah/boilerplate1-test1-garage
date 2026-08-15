@@ -7,7 +7,7 @@ import type { ActionResult } from '@/types'
 
 const SESSION_COOKIE_NAME = '__session'
 
-/**
+/** 
  * Verify the current session cookie and return the decoded token.
  * Use this in Server Components and Server Actions to authenticate requests.
  */
